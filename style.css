@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.5rem;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 20vh;
+}
+
+.paragraph {
+    width: 50vw;
+    height: 20vh;
+}
+
+.div {
+    width: 30%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div:hover {
+    background-color: rgba(10, 10, 10, 0.4);
+    transition: 2s;
+}
+
+.four {
+    width: 30%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.pTwo {
+    display: none;
+}
+
+.pThree {
+    display: none;
+}
